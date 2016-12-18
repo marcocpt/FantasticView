@@ -12,6 +12,7 @@
 		DAC47DA21E06261D005C33EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC47DA01E06261D005C33EF /* Main.storyboard */; };
 		DAC47DA41E06261D005C33EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC47DA31E06261D005C33EF /* Assets.xcassets */; };
 		DAC47DA71E06261D005C33EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC47DA51E06261D005C33EF /* LaunchScreen.storyboard */; };
+		DAC47DAF1E062662005C33EF /* FantasticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC47DAE1E062662005C33EF /* FantasticView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DAC47DA31E06261D005C33EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAC47DA61E06261D005C33EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAC47DA81E06261D005C33EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC47DAE1E062662005C33EF /* FantasticView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantasticView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		DAC47D9B1E06261C005C33EF /* FantasticView */ = {
 			isa = PBXGroup;
 			children = (
+				DAC47DAE1E062662005C33EF /* FantasticView.swift */,
 				DAC47D9C1E06261D005C33EF /* AppDelegate.swift */,
 				DAC47D9E1E06261D005C33EF /* ViewController.swift */,
 				DAC47DA01E06261D005C33EF /* Main.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				DAC47D9F1E06261D005C33EF /* ViewController.swift in Sources */,
 				DAC47D9D1E06261D005C33EF /* AppDelegate.swift in Sources */,
+				DAC47DAF1E062662005C33EF /* FantasticView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +267,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VQLBN4DB8C;
 				INFOPLIST_FILE = FantasticView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wgd.FantasticView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +281,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VQLBN4DB8C;
 				INFOPLIST_FILE = FantasticView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wgd.FantasticView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
